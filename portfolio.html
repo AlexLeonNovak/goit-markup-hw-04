@@ -40,6 +40,9 @@
                 <a class="link contacts-item-link"
                    href="mailto:info@devstudio.com"
                 >
+                    <svg class="contact-icon">
+                        <use href="./images/sprite.svg#envelope"></use>
+                    </svg>
                     info@devstudio.com
                 </a>
             </li>
@@ -47,6 +50,9 @@
                 <a class="link contacts-item-link"
                    href="tel:+380961111111"
                 >
+                    <svg class="contact-icon">
+                        <use href="./images/sprite.svg#smartphone"></use>
+                    </svg>
                     +38 096 111 11 11
                 </a>
             </li>
@@ -88,7 +94,7 @@
         <ul class="list grid category-list">
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-1.png" alt="Category 1">
+                    <img src="./images/category-1.jpg" alt="Category 1">
                     <div class="category-card-content">
                         <h2 class="card-title">Технокряк</h2>
                         <p class="card-category-name">Веб-сайт</p>
@@ -97,7 +103,7 @@
             </li>
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-2.png" alt="Category 2">
+                    <img src="./images/category-2.jpg" alt="Category 2">
                     <div class="category-card-content">
                         <h2 class="card-title">Постер New Orlean vs Golden  Star</h2>
                         <p class="card-category-name">Дизайн</p>
@@ -106,7 +112,7 @@
             </li>
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-3.png" alt="Category 3">
+                    <img src="./images/category-3.jpg" alt="Category 3">
                     <div class="category-card-content">
                         <h2 class="card-title">Ресторан Seafood</h2>
                         <p class="card-category-name">Приложения</p>
@@ -115,7 +121,7 @@
             </li>
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-4.png" alt="Category 4">
+                    <img src="./images/category-4.jpg" alt="Category 4">
                     <div class="category-card-content">
                         <h2 class="card-title">Проект Prime</h2>
                         <p class="card-category-name">Маркетинг</p>
@@ -124,7 +130,7 @@
             </li>
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-5.png" alt="Category 5">
+                    <img src="./images/category-5.jpg" alt="Category 5">
                     <div class="category-card-content">
                         <h2 class="card-title">Проект Boxes</h2>
                         <p class="card-category-name">Приложения</p>
@@ -133,7 +139,7 @@
             </li>
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-6.png" alt="Category 6">
+                    <img src="./images/category-6.jpg" alt="Category 6">
                     <div class="category-card-content">
                         <h2 class="card-title">Inspiration has no Borders</h2>
                         <p class="card-category-name">Веб-сайт</p>
@@ -142,7 +148,7 @@
             </li>
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-7.png" alt="Category 7">
+                    <img src="./images/category-7.jpg" alt="Category 7">
                     <div class="category-card-content">
                         <h2 class="card-title">Издание Limited Edition</h2>
                         <p class="card-category-name">Дизайн</p>
@@ -151,7 +157,7 @@
             </li>
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-8.png" alt="Category 8">
+                    <img src="./images/category-8.jpg" alt="Category 8">
                     <div class="category-card-content">
                         <h2 class="card-title">Проект LAB</h2>
                         <p class="card-category-name">Маркетинг</p>
@@ -160,7 +166,7 @@
             </li>
             <li class="grid-item category-card">
                 <a href="#" class="link">
-                    <img src="./images/category-9.png" alt="Category 9">
+                    <img src="./images/category-9.jpg" alt="Category 9">
                     <div class="category-card-content">
                         <h2 class="card-title">Growing Business</h2>
                         <p class="card-category-name">Приложения</p>
@@ -174,28 +180,74 @@
 
 <footer class="footer">
     <div class="container">
-        <a href="index.html" class="link logo-link">
-            <span class="logo"><span class="blue">Web</span>Studio</span>
-        </a>
-        <address class="contacts-info" id="contacts">
-            <p class="contact-info-address">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="list contacts">
-                <li class="contacts-item">
-                    <a class="link contacts-item-link"
-                       href="mailto:info@devstudio.com"
-                    >
-                        info@devstudio.com
-                    </a>
-                </li>
-                <li class="contacts-item">
-                    <a class="link contacts-item-link"
-                       href="tel:+380961111111"
-                    >
-                        +38 096 111 11 11
-                    </a>
-                </li>
-            </ul>
-        </address>
+        <ul class="list footer-blocks">
+            <li class="footer-block-item">
+                <a href="index.html" class="link logo-link">
+                    <span class="logo"><span class="blue">Web</span>Studio</span>
+                </a>
+                <address class="contacts-info" id="contacts">
+                    <p class="contact-info-address">
+                        <a class="link" target="_blank" href="https://goo.gl/maps/kAQHQV87yM3aP56k6">г. Киев, пр-т Леси Украинки, 26</a></p>
+                    <ul class="list contacts">
+                        <li class="contacts-item">
+                            <a class="link contacts-item-link"
+                               href="mailto:info@devstudio.com"
+                            >
+                                info@devstudio.com
+                            </a>
+                        </li>
+                        <li class="contacts-item">
+                            <a class="link contacts-item-link"
+                               href="tel:+380961111111"
+                            >
+                                +38 096 111 11 11
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+            </li>
+            <li class="footer-block-item">
+                <h2 class="footer-social-title">Присоединяйтесь</h2>
+                <ul class="list socials">
+                    <li class="social-item">
+                        <a class="link social-link"
+                           href="https://www.instagram.com/"
+                           target="_blank">
+                            <svg class="social-icon">
+                                <use href="./images/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="link social-link"
+                           href="https://twitter.com/"
+                           target="_blank">
+                            <svg class="social-icon">
+                                <use href="./images/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="link social-link"
+                           href="https://www.facebook.com/"
+                           target="_blank">
+                            <svg class="social-icon">
+                                <use href="./images/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="link social-link"
+                           href="http://linkedin.com/"
+                           target="_blank">
+                            <svg class="social-icon">
+                                <use href="./images/sprite.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </footer>
 </body>
